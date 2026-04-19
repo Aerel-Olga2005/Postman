@@ -19,7 +19,7 @@ public class PostmanTest {
                 .then()
                 .log().all()
                 .statusCode(200)
-                .body("data", org.hamcrest.Matchers.equalTo("Invierno"))
+                .body("data", org.hamcrest.Matchers.equalTo("Primavera"))
         ;
     }
 }
